@@ -1,12 +1,17 @@
 {
   "interval": 300, 
-  "watchers": [
-    {
-      "name": "Moi",
-      "topic": "choisis-un-topic-long-et-unique",
-      "villes": {
-        "MaVille": "URL_DE_RECHERCHE_TROUVERUNLOGEMENT"
-      }
+  "villes": {
+     "MaVille": {
+      "url": "URL_DE_RECHERCHE_TROUVERUNLOGEMENT",
+      "webhook": "https://discord.com/api/webhooks/ton_webhook_discord",
+      "mention": "<@mention>",
+      "ntfy": ["choisis-un-topic-long-et-unique"]
+    },
+    "MyCity": {
+      "url": "URL_DE_RECHERCHE_TROUVERUNLOGEMENT",
+      "webhook": "https://discord.com/api/webhooks/ton_webhook_discord",
+      "mention": "<@mention>",
+      "ntfy": ["choisis-un-topic-long-et-unique"]
     }
-  ]
+  }
 }
