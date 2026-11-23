@@ -1,0 +1,12 @@
+{
+  "interval": 300, 
+  "watchers": [
+    {
+      "name": "Moi",
+      "topic": "choisis-un-topic-long-et-unique",
+      "villes": {
+        "MaVille": "URL_DE_RECHERCHE_TROUVERUNLOGEMENT"
+      }
+    }
+  ]
+}

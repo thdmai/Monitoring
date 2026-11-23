@@ -1,0 +1,14 @@
+# Config perso (contient les topics ntfy)
+config.json
+
+# Données du conteneur
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Divers
+.env
+.DS_Store

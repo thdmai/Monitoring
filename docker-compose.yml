@@ -1,0 +1,7 @@
+services:
+  crous:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/config/config.json:ro
+      - ./data:/data
